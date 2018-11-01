@@ -1,0 +1,31 @@
+@keyframes preloaderA {
+	0% {
+		opacity: 1;
+	} 50% {
+		opacity: 0;
+	} 100% {
+		opacity: 1;
+	}
+}
+
+@keyframes preloaderB {
+	0% {
+		left: 2.5rem;
+	} 25% {
+		left: -2.5rem;
+	} 50% {
+		left: 2.5rem;
+	} 75% {
+		left: -2.5rem;
+	} 100% {
+		left: 2.5rem;
+	}
+}
+
+@keyframes preloaderC {
+	from {
+		transform: rotate(0);
+	} to {
+		transform: rotate(-360deg);
+	}
+}
